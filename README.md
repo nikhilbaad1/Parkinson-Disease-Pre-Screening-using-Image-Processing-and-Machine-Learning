@@ -12,7 +12,8 @@ Details:
 The data is collected from fc.unesp.br website. This data is collected at Botucatu Medical School, São Paulo State University - Brazil. 
 
 
-The major assignment is filling up a form of four spirals and four meanders, which is subsequently cut out and saved as a "jpg" image. Here are a few examples drawn from the dataset:
+The major assignment is filling up a form of four spirals and four meanders, cut out, and saved as a "jpg" image. Here are a few examples drawn from the dataset:
+
 ![image](https://github.com/nikhilbaad1/Parkinson-Disease-Pre-Screening-using-Image-Processing-and-Machine-Learning/assets/47523576/023a8fcb-eb37-4b06-a2ca-44e7cff6fdeb)
 ![image](https://github.com/nikhilbaad1/Parkinson-Disease-Pre-Screening-using-Image-Processing-and-Machine-Learning/assets/47523576/694a4373-e902-471b-bf7e-4c39ad45f7c7)
 ![image](https://github.com/nikhilbaad1/Parkinson-Disease-Pre-Screening-using-Image-Processing-and-Machine-Learning/assets/47523576/29d480dd-3f68-4478-a2ae-b9e6b8708e14)
@@ -37,7 +38,7 @@ The contour values are then divided into small parts to find the displacement an
 
 After getting the breakup points, the code calculates the contour length in the two points and the displacement between the points. And then calculates the ratio of the distance. We are dividing a single contour into 30 parts. And then, save the data in a CSV file with the label on it. 
 
-![image](https://github.com/nikhilbaad1/Parkinson-Disease-Pre-Screening-using-Image-Processing-and-Machine-Learning/assets/47523576/71e91a74-ae8d-46dc-996d-e7fb43dbaa7d)
+
 
 Data saved in the CSV file then go for the preprocessing, and the following steps are implemented (MachineLearning.ipynb):
 1.	Missing value Handling 
